@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu options"
+        android:textAlignment="center"
+        android:textColor="#572623"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="#FFF"
+        android:text="Phone"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        tools:ignore="TextContrastCheck" />
+    <Button
+    android:id="@+id/b2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="#FFF"
+    android:text="SMS"
+    android:textSize="25sp"
+    android:textStyle="italic"
+    android:textAllCaps="true"
+    tools:ignore="TextContrastCheck" />
+  <Button
+    android:id="@+id/b3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="#FFF"
+    android:text="Website"
+    android:textSize="25sp"
+    android:textStyle="italic"
+    android:textAllCaps="true"
+    tools:ignore="TextContrastCheck" />
+
+  </LinearLayout>

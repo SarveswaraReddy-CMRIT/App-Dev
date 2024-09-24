@@ -1,0 +1,4 @@
+<activity  android:name="com.cmrit.signupapplication.loginActivity" />
+<activity  android:name="com.cmrit.signupapplication.RegisterSuccessActivity" />
+<activity android:name="com.cmrit.signupapplication.welcomeActivity"/>
+   
