@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Chatbot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Python Chatbot</h1>
+        <form method="POST" action="/ask">
+            <div class="form-group">
+                <label for="user_question">Ask a Python question:</label>
+                <input type="text" class="form-control" id="user_question" name="user_question" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        {% if user_question %}
+        <h3>Your Question:</h3>
+        <p>{{ user_question }}</p>
+        <h3>Answer:</h3>
+        <p>{{ answer }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

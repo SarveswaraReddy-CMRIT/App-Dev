@@ -1,0 +1,3 @@
+What is Python? ||| Python is a high-level programming language.
+How to declare a variable in Python? ||| You can declare a variable in Python using the assignment operator (=).
+
