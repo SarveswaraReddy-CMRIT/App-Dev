@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            app:showAsAction="always"
+            android:id="@+id/a"
+            android:title=""
+            android:icon="@drawable/baseline_more_vert_24"
+            tools:ignore="AppCompatResource">
+
+        <menu>
+            <item
+                android:id="@+id/action_dial"
+                android:title="Dial number"
+                android:icon="@drawable/baseline_call_24"
+                app:showAsAction="always"
+                tools:ignore="AppCompatResource" />
+            <item
+                android:id="@+id/action_website"
+                android:title="Open website"
+                android:icon="@drawable/baseline_web_24"
+                app:showAsAction="always"
+                tools:ignore="AppCompatResource" />
+            <item
+                android:id="@+id/action_sms"
+                android:title="Send SMS"
+                android:icon="@drawable/baseline_sms_24"
+                app:showAsAction="always"
+                tools:ignore="AppCompatResource" />
+        </menu>
+    </item>
+
+</menu>
