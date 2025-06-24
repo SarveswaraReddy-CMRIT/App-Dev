@@ -1,53 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <title>Web-App With Menu Items</title>
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
-
   <style>
     .pure-menu-heading {
       color: #308d46;
+      margin-right: 30px;
     }
   </style>
 </head>
-
 <body>
-  <div class="pure-menu pure-menu-horizontal">
+  <nav class="pure-menu pure-menu-horizontal">
     <ul class="pure-menu-list">
-      <li class="pure-menu-heading">
-        CMR Institute of Technology
+      <li class="pure-menu-heading">CMR Institute of Technology</li>
+      <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+        <a href="#" class="pure-menu-link">Tutorials</a>
+        <ul class="pure-menu-children">
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">HTML</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">CSS</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">JavaScript</a></li>
+        </ul>
       </li>
-      <br>
-      <li class="pure-menu-item
-          pure-menu-has-children
-          pure-menu-allow-hover">
-        <a href="#"
-        class="pure-menu-link">
-          Tutorials
-        </a>
-        
-        
-      </li>
-      <li class="pure-menu-item">
-        <a href="#"
-        class="pure-menu-link">
-          Students
-        </a>
-      </li>
-      <li class="pure-menu-item">
-        <a href="#"
-        class="pure-menu-link">
-          Jobs
-        </a>
-      </li>
-      <li class="pure-menu-item">
-        <a href="#"
-        class="pure-menu-link">
-          Courses
-        </a>
-      </li>
+      <li class="pure-menu-item"><a href="#" class="pure-menu-link">Students</a></li>
+      <li class="pure-menu-item"><a href="#" class="pure-menu-link">Jobs</a></li>
+      <li class="pure-menu-item"><a href="#" class="pure-menu-link">Courses</a></li>
     </ul>
-  </div>
+  </nav>
 </body>
 </html>
